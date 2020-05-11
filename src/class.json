@@ -10,30 +10,26 @@
     },
     {
         "1":"https://zoom.us/j/7223454774?pwd=WUVWQUxqTnA4QXRDUUt1ZFhkekdOdz09",
-        "2":"https://zoom.us/j/6863031340",
+        "2":"https://zoom.us/j/6863031340?pwd=WUVWQUxqTnA4QXRDUUt1ZFhkekdOdz09",
         "3":"https://zoom.us/j/7965443330",
         "4":"https://zoom.us/j/7178015132",
-        "5":"https://zoom.us/j/3650046422",
-        "6":"CA",
-        "7":"CA"
+        "5":"https://zoom.us/j/3650046422"
     },
     {
         "1":"https://us04web.zoom.us/j/3955689232",
         "2":"https://zoom.us/j/7178015132",
-        "3":"https://zoom.us/j/3335559622",
-        "4":"https://zoom.us/j/7987833794",
+        "3":"https://zoom.us/j/3335559622?pwd=5dIgiKyr7d0",
+        "4":"https://zoom.us/j/7987833794?pwd=ZFl0akk5T0ZyME93Nk1ldnd0cC8vdz09",
         "5":"https://zoom.us/j/3650046422",
-        "6":"https://zoom.us/j/6863031340",
-        "7":"X"
+        "6":"https://zoom.us/j/6863031340"
     },
     {
         "1":"https://us04web.zoom.us/j/7126847915",
         "2":"https://zoom.us/j/8134411742",
         "3":"https://zoom.us/j/7722593481",
-        "4":"https://zoom.us/j/7987833794",
+        "4":"https://zoom.us/j/7987833794?pwd=ZFl0akk5T0ZyME93Nk1ldnd0cC8vdz09",
         "5":"https://zoom.us/j/3650046422",
-        "6":"https://us04web.zoom.us/j/3335559622",
-        "7":"X"
+        "6":"https://zoom.us/j/3335559622?pwd=5dIgiKyr7d0"
     },
     {
         "1":"https://zoom.us/j/7965443330",
@@ -42,6 +38,9 @@
         "4":"https://zoom.us/j/7864104388",
         "5":"https://zoom.us/j/7223454774?pwd=WUVWQUxqTnA4QXRDUUt1ZFhkekdOdz09",
         "6":"https://us04web.zoom.us/j/7126847915",
-        "7":"https://zoom.us/j/7987833794"
+        "7":"https://zoom.us/j/7987833794?pwd=ZFl0akk5T0ZyME93Nk1ldnd0cC8vdz09"
+    },
+    {
+        "0":"https://zoom.us/j/7987833794?pwd=ZFl0akk5T0ZyME93Nk1ldnd0cC8vdz09"
     }
 ]

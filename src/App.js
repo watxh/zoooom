@@ -14,14 +14,13 @@ function App() {
   }, []) 
 
   const a = () => {
-    console.log("asd");
     var dday = moment().format('dddd');
     var dnum = 0;
     switch(dday) {
       case "Monday":
         dnum = 0;
         break;
-      case "Tuseday":
+      case "Tuesday":
         dnum = 1;
         break;
       case "Wednesday":
@@ -42,10 +41,12 @@ function App() {
     var num = 0;
     if(time2[0] == 8 && time2[1] >= 40 && time2[1] <= 47) //아침조회
     {
-        num = 0;
+      dnum = 5;
+      num = 0;
     }
     else if (time2[0] == 4 && time2[1] >= 40 && time2[1] <= 47) //종례
     {
+      dnum = 5;
       num = 0;
     }
     else if(time2[0] >= 8) //오전수업
@@ -64,7 +65,6 @@ function App() {
       num = parseInt(time2[0]) + 4;
     }
     window.open(classroom[dnum][num], '_self');
-    console.log(classroom[dnum][num]);
   }
 
   return (
