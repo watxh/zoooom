@@ -1,26 +1,95 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components"
+import moment from "moment"
+
+import classroom from "./class.json"
 
 function App() {
+
+  const [day, setDay] = useState("Monday");
+
+  const a = () => {
+    var dday = moment().format('dddd');
+    var dnum = 0;
+    switch(dday) {
+      case "Monday":
+        dnum = 0;
+        break;
+      case "Tuseday":
+        dnum = 1;
+        break;
+      case "Wednesday":
+        dnum = 2;
+        break;
+      case "Thursday" :
+        dnum = 3;
+        break;
+      case "Friday" :
+        dnum = 4;
+        break; 
+    }
+    setDay(dnum);
+    var time = (moment().format('LT'));
+    var time2 = time.split(':');
+    time2[1] = (time2[1].split(' '))[0];
+    
+    var num = 0;
+    if(time2[0] == 8 && time2[1] >= 40 && time2[1] <= 47) //아침조회
+    {
+        num = 0;
+    }
+    else if (time2[0] == 4 && time2[1] >= 40 && time2[1] <= 47) //종례
+    {
+      num = 0;
+    }
+    else if(time2[0] >= 8) //오전수업
+    {
+      if(time2[1] <= 3)
+      {
+        num = time2[0] - 8;
+      }
+      else if(time2[1] >= 50)
+      {
+        num = time2[0] - 7;
+      }
+    }
+    else //오후
+    {
+      num = parseInt(time2[0]) + 4;
+    }
+    window.open(classroom[dnum][num], '_blank');
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Zoooom onClick={a}>ZooooooooooooooooooooooM</Zoooom>
+    </Container>
   );
 }
 
 export default App;
+
+const Container = styled.div`
+  align-content:center;
+  display:flex;
+
+`;  
+
+const Zoooom = styled.button`
+  position:fixed;
+  left:50%;
+  top:40%;
+  margin-left:-550px;
+  margin-top:-50px;
+  width:1100px;
+  height:200px;
+  border-radius:20px;
+  border-style:none;
+  background-color:#323fff;
+  font-size:60px;
+  outline:0;
+  color:white;
+  box-shadow:3px 3px 3px rgba(0,0,0,0.4);
+  font-family: 'Varela Round', sans-serif;
+`;
