@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import logo from './logo.svg';
 import styled from "styled-components"
 import moment from "moment"
@@ -9,7 +9,12 @@ function App() {
 
   const [day, setDay] = useState("Monday");
 
+  useEffect(() => {
+    a();
+  }, []) 
+
   const a = () => {
+    console.log("asd");
     var dday = moment().format('dddd');
     var dnum = 0;
     switch(dday) {
@@ -59,11 +64,11 @@ function App() {
       num = parseInt(time2[0]) + 4;
     }
     window.open(classroom[dnum][num], '_blank');
+    console.log(classroom[dnum][num]);
   }
 
   return (
     <Container>
-      {a}
     </Container>
   );
 }
