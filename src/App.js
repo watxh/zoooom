@@ -63,7 +63,7 @@ function App() {
     {
       num = parseInt(time2[0]) + 4;
     }
-    window.open(classroom[dnum][num], '_blank');
+    window.open(classroom[dnum][num], '_self');
     console.log(classroom[dnum][num]);
   }
 
