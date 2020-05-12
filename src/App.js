@@ -63,7 +63,7 @@ function App() {
 
   return (
     <Container>
-      <Zoooom onClick={a}>ZooooooooooooooooooooooM</Zoooom>
+      {a}
     </Container>
   );
 }
