@@ -1,46 +1,46 @@
 [
     {
-        "1":"https://zoom.us/j/6863031340",
-        "2":"https://zoom.us/j/7178015132?pwd=dS9HQUdJNGMyVXk2U25Ra0hrczJLUT09",
-        "3":"https://zoom.us/j/7864104388",
-        "4":"https://zoom.us/j/7965443330",
-        "5":"https://zoom.us/j/3650046422",
-        "6":"https://zoom.us/j/8134411742",
-        "7":"https://zoom.us/j/7722593481"
+        "1":"zoommtg://zoom.us/join?action=join&confno=6863031340&pwd=dimigo",
+        "2":"zoommtg://zoom.us/join?action=join&confno=7178015132&pwd=dimigo",
+        "3":"zoommtg://zoom.us/join?action=join&confno=7864104388&pwd=dimigo",
+        "4":"zoommtg://zoom.us/join?action=join&confno=7965443330&pwd=dimigo",
+        "5":"zoommtg://zoom.us/join?action=join&confno=3650046422&pwd=dimigo",
+        "6":"zoommtg://zoom.us/join?action=join&confno=8134411742&pwd=dimigo",
+        "7":"zoommtg://zoom.us/join?action=join&confno=7722593481&pwd=dimigo"
     },
     {
-        "1":"https://zoom.us/j/7223454774?pwd=WUVWQUxqTnA4QXRDUUt1ZFhkekdOdz09",
-        "2":"https://zoom.us/j/6863031340?pwd=WUVWQUxqTnA4QXRDUUt1ZFhkekdOdz09",
-        "3":"https://zoom.us/j/7965443330",
-        "4":"https://zoom.us/j/7178015132?pwd=dS9HQUdJNGMyVXk2U25Ra0hrczJLUT09",
-        "5":"https://zoom.us/j/3650046422"
+        "1":"zoommtg://zoom.us/join?action=join&confno=7223454774&pwd=dimigo",
+        "2":"zoommtg://zoom.us/join?action=join&confno=6863031340&pwd=dimigo",
+        "3":"zoommtg://zoom.us/join?action=join&confno=7965443330&pwd=dimigo",
+        "4":"zoommtg://zoom.us/join?action=join&confno=7178015132&pwd=dimigo",
+        "5":"zoommtg://zoom.us/join?action=join&confno=3650046422&pwd=dimigo"
     },
     {
-        "1":"https://us04web.zoom.us/j/3955689232",
-        "2":"https://zoom.us/j/7178015132?pwd=dS9HQUdJNGMyVXk2U25Ra0hrczJLUT09",
-        "3":"https://zoom.us/j/3335559622?pwd=5dIgiKyr7d0",
-        "4":"https://zoom.us/j/7987833794?pwd=ZFl0akk5T0ZyME93Nk1ldnd0cC8vdz09",
-        "5":"https://zoom.us/j/3650046422",
-        "6":"https://zoom.us/j/6863031340"
+        "1":"zoommtg://zoom.us/join?action=join&confno=3955689232&pwd=dimigo",
+        "2":"zoommtg://zoom.us/join?action=join&confno=7178015132&pwd=dimigo",
+        "3":"zoommtg://zoom.us/join?action=join&confno=3335559622&pwd=dimigo",
+        "4":"zoommtg://zoom.us/join?action=join&confno=7987833794&pwd=dimigo",
+        "5":"zoommtg://zoom.us/join?action=join&confno=3650046422&pwd=dimigo",
+        "6":"zoommtg://zoom.us/join?action=join&confno=6863031340&pwd=dimigo"
     },
     {
-        "1":"https://us04web.zoom.us/j/7126847915",
-        "2":"https://zoom.us/j/8134411742",
-        "3":"https://zoom.us/j/7722593481",
-        "4":"https://zoom.us/j/7987833794?pwd=ZFl0akk5T0ZyME93Nk1ldnd0cC8vdz09",
-        "5":"https://zoom.us/j/3650046422",
-        "6":"https://zoom.us/j/3335559622?pwd=5dIgiKyr7d0"
+        "1":"zoommtg://zoom.us/join?action=join&confno=7126847915&pwd=dimigo",
+        "2":"zoommtg://zoom.us/join?action=join&confno=8134411742&pwd=dimigo",
+        "3":"zoommtg://zoom.us/join?action=join&confno=7722593481&pwd=dimigo",
+        "4":"zoommtg://zoom.us/join?action=join&confno=7987833794&pwd=dimigo",
+        "5":"zoommtg://zoom.us/join?action=join&confno=3650046422&pwd=dimigo",
+        "6":"zoommtg://zoom.us/join?action=join&confno=3335559622&pwd=dimigo"
     },
     {
-        "1":"https://zoom.us/j/7965443330",
-        "2":"https://zoom.us/j/7178015132?pwd=dS9HQUdJNGMyVXk2U25Ra0hrczJLUT09",
-        "3":"https://zoom.us/j/6863031340",
-        "4":"https://zoom.us/j/7864104388",
-        "5":"https://zoom.us/j/7223454774?pwd=WUVWQUxqTnA4QXRDUUt1ZFhkekdOdz09",
-        "6":"https://us04web.zoom.us/j/7126847915",
-        "7":"https://zoom.us/j/7987833794?pwd=ZFl0akk5T0ZyME93Nk1ldnd0cC8vdz09"
+        "1":"zoommtg://zoom.us/join?action=join&confno=7965443330&pwd=dimigo",
+        "2":"zoommtg://zoom.us/join?action=join&confno=7178015132&pwd=dimigo",
+        "3":"zoommtg://zoom.us/join?action=join&confno=6863031340&pwd=dimigo",
+        "4":"zoommtg://zoom.us/join?action=join&confno=7864104388&pwd=dimigo",
+        "5":"zoommtg://zoom.us/join?action=join&confno=7223454774&pwd=dimigo",
+        "6":"zoommtg://zoom.us/join?action=join&confno=7126847915&pwd=dimigo",
+        "7":"zoommtg://zoom.us/join?action=join&confno=7987833794&pwd=dimigo"
     },
     {
-        "0":"https://zoom.us/j/7987833794?pwd=ZFl0akk5T0ZyME93Nk1ldnd0cC8vdz09"
+        "0":"zoommtg://zoom.us/join?action=join&confno=7987833794&pwd=dimigo"
     }
 ]
